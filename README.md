@@ -1,4 +1,4 @@
-# Apple Documentation for AI Agents 🍎🤖
+# Apple Documentation for AI Agents 
 
 A comprehensive collection of 376+ Apple framework documentation files optimized for AI assistants and developers building Apple platform applications.
 
@@ -126,29 +126,6 @@ With access to detailed documentation, AI can:
 - **Handle edge cases** → Implement proper error handling
 - **Optimize performance** → Use efficient patterns and practices
 
-## 📁 File Organization
-
-```
-/AppleDocumentationForAIAgents
-├── Core Frameworks/
-│   ├── Foundation.md
-│   ├── Swift.md
-│   └── Combine.md
-├── UI & App/
-│   ├── SwiftUI.md
-│   ├── UIKit.md
-│   └── AppKit.md
-├── Data & Storage/
-│   ├── Core Data.md
-│   ├── CloudKit.md
-│   └── SwiftData.md
-├── Media & Graphics/
-│   ├── Metal.md
-│   ├── AVFoundation.md
-│   └── Core Graphics.md
-└── [Additional framework documents...]
-```
-
 ## 🎯 Benefits for AI-Assisted Development
 
 ### 1. **Accuracy**
@@ -219,3 +196,5 @@ This repository contains documentation derived from Apple Developer Documentatio
 **Ready to build amazing Apple apps with AI assistance?** 
 
 Start by configuring your AI agent to access this repository, then describe what you want to build. Watch as your AI assistant intelligently selects frameworks, reads the documentation, and guides you through implementation with Apple's best practices. 🚀
+
+
