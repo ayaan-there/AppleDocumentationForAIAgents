@@ -1,200 +1,343 @@
-# Apple Documentation for AI Agents 
+# AppleDocumentationForAIAgents
 
-A comprehensive collection of 376+ Apple framework documentation files optimized for AI assistants and developers building Apple platform applications.
+Local-first, AI-readable Apple Developer documentation with on-demand MCP deep lookup.
 
-## 🚀 Quick Start Guide
-
-### Step 1: Set Up MCP Server Integration
-
-1. **Install the Sosumi.ai MCP Server** in your code editor:
-   ```bash
-   # Add to your MCP configuration
-   {
-     "mcpServers": {
-       "sosumi": {
-         "command": "npx",
-         "args": ["sosumi-mcp"],
-         "url": "https://sosumi.ai/documentation"
-       }
-     }
-   }
-   ```
-
-2. **Configure your AI agent** to access both:
-   - This local documentation repository
-   - The live sosumi.ai API for real-time Apple docs
-
-### Step 2: AI-Powered Development Workflow
-
-#### 🎯 Planning Phase
-Tell your AI agent:
-```
-"I want to build a [describe your app]. Please:
-1. Analyze the requirements and suggest relevant Apple frameworks
-2. Read the specific framework documentation from the local repository
-3. Create a development plan with proper API usage"
-```
-
-#### 📚 Framework Selection
-Your AI agent will:
-- **Analyze requirements** → Suggest frameworks from 377 available topics
-- **Read framework docs** → Access detailed API references from this repo
-- **Plan architecture** → Design with proper framework integration
-- **Identify dependencies** → Map prerequisite frameworks and learning paths
-
-#### 🔧 Implementation Guidance
-The AI agent can:
-- **Reference exact APIs** → Use precise method signatures and classes
-- **Follow best practices** → Implement Apple's recommended patterns
-- **Handle integrations** → Understand framework interconnections
-- **Optimize performance** → Apply framework-specific optimizations
-
-## 📖 Repository Contents
-
-### What's Included
-- **376 Framework Documentation Files** (.md format)
-- **Complete Apple Ecosystem** - iOS, macOS, watchOS, visionOS, tvOS
-- **Interconnected References** - Links between related frameworks
-- **API Examples** - Practical implementation guidance
-- **Learning Paths** - Step-by-step framework progression
-
-### Coverage Areas
-- **UI Frameworks**: SwiftUI, UIKit, AppKit
-- **Data & Persistence**: Core Data, CloudKit, SwiftData  
-- **Media & Graphics**: Metal, AVFoundation, Core Graphics, RealityKit
-- **Machine Learning**: Core ML, Vision, Create ML, Natural Language
-- **System Integration**: SiriKit, WidgetKit, App Intents, Network Framework
-- **Platform Features**: ARKit, HealthKit, HomeKit, CarPlay, WatchKit
-- **Security & Privacy**: CryptoKit, Security, Local Authentication
-- **Developer Tools**: XCTest, Swift Testing, Xcode Cloud
-
-## 🤖 AI Agent Usage Examples
-
-### Example 1: iOS App with Core Data
-```
-Prompt: "Build an iOS app with offline data storage and cloud sync"
-
-AI Agent Process:
-1. Reads SwiftUI.md, Core Data.md, CloudKit.md from repo
-2. Plans architecture with proper data model design
-3. Implements with exact API calls and best practices
-4. Handles sync conflicts and offline scenarios
-```
-
-### Example 2: Machine Learning Integration
-```
-Prompt: "Add image recognition to my iOS camera app"
-
-AI Agent Process:
-1. Reads Vision.md, Core ML.md, AVFoundation.md
-2. Designs image processing pipeline
-3. Implements camera capture with Vision framework
-4. Optimizes for real-time performance
-```
-
-### Example 3: Cross-Platform macOS Development
-```
-Prompt: "Port my iOS app to macOS with native UI"
-
-AI Agent Process:
-1. Reads AppKit.md, Mac Catalyst.md, Foundation.md
-2. Maps iOS concepts to macOS equivalents
-3. Adapts UI for desktop interaction patterns
-4. Implements Mac-specific features
-```
-
-## 🛠 Advanced AI Integration
-
-### Framework Discovery
-The AI can intelligently suggest frameworks based on:
-- **App functionality** → Recommend relevant APIs
-- **Platform requirements** → Select platform-specific frameworks
-- **Performance needs** → Choose optimized solutions
-- **Integration complexity** → Balance capability vs. complexity
-
-### Dependency Management
-AI agents understand:
-- **Prerequisites** → Foundation → UIKit → specialized frameworks
-- **Compatibility** → iOS versions, feature availability
-- **Learning curves** → Beginner → intermediate → advanced topics
-- **Performance impact** → Memory, battery, processing considerations
-
-### Code Generation
-With access to detailed documentation, AI can:
-- **Generate accurate code** → Use correct API signatures
-- **Follow conventions** → Apply Apple's naming and patterns
-- **Handle edge cases** → Implement proper error handling
-- **Optimize performance** → Use efficient patterns and practices
-
-## 🎯 Benefits for AI-Assisted Development
-
-### 1. **Accuracy**
-- AI agents reference exact Apple APIs
-- Reduces hallucination with authoritative sources
-- Provides current, verified implementation patterns
-
-### 2. **Efficiency**
-- Skip documentation searching time
-- Get targeted framework recommendations
-- Understand integration patterns quickly
-
-### 3. **Best Practices**
-- Follow Apple's recommended patterns
-- Implement proper architecture from the start
-- Handle platform-specific requirements correctly
-
-### 4. **Learning Acceleration**
-- AI explains complex framework relationships
-- Provides step-by-step implementation guidance
-- Connects concepts across the Apple ecosystem
-
-## 🔗 Integration with Live Documentation
-
-This repository works best when combined with:
-- **Sosumi.ai MCP Server** - Live Apple documentation access
-- **GitHub Copilot** - Code generation with context
-- **Claude/GPT** - Architectural planning and explanation
-- **Local AI models** - Offline development assistance
-
-## 💡 Best Practices
-
-### For Developers
-1. **Start with planning** - Let AI analyze requirements first
-2. **Reference dependencies** - Check prerequisite frameworks
-3. **Validate implementations** - Cross-check with live Apple docs
-4. **Test thoroughly** - AI suggestions need validation
-
-### For AI Agents
-1. **Read framework docs first** - Understand capabilities before suggesting
-2. **Check compatibility** - Verify platform and version requirements
-3. **Explain trade-offs** - Discuss different implementation approaches
-4. **Provide complete examples** - Include imports, setup, and error handling
-
-## 📊 Repository Statistics
-
-- **Total Framework Files**: 376+
-- **Coverage**: 99.5% of Apple's documented frameworks
-- **Platforms**: iOS, macOS, watchOS, visionOS, tvOS
-- **Last Updated**: February 2026
-- **Format**: Markdown with cross-references
-- **Size**: Comprehensive API coverage for each framework
-
-## 🤝 Contributing
-
-This repository is designed for AI consumption. To contribute:
-1. Ensure documentation accuracy with Apple's latest APIs
-2. Maintain consistent formatting and cross-references  
-3. Update for new framework releases and deprecations
-4. Test with various AI agents for compatibility
-
-## 📝 License
-
-This repository contains documentation derived from Apple Developer Documentation. All original content belongs to Apple Inc. This collection is provided for educational and development purposes.
+Build iOS, macOS, watchOS, tvOS, and visionOS apps using AI faster, cheaper, and with fewer hallucinations.
 
 ---
 
-**Ready to build amazing Apple apps with AI assistance?** 
+## Overview
 
-Start by configuring your AI agent to access this repository, then describe what you want to build. Watch as your AI assistant intelligently selects frameworks, reads the documentation, and guides you through implementation with Apple's best practices. 🚀
+Apple's official documentation is comprehensive, but it is not optimized for AI systems. It is heavily JavaScript-based, fragmented across many pages, and expensive to repeatedly fetch and parse.
 
+When used with AI agents, this results in:
 
+- High token usage
+- Repeated scraping
+- Slow responses
+- Incorrect API usage
+- Increased hallucinations
+
+This repository provides a structured, offline-first knowledge base of Apple framework documentation in Markdown format, optimized for AI consumption, with optional live expansion through the sosumi.ai MCP server.
+
+---
+
+## Key Idea
+
+Instead of forcing AI agents to constantly re-fetch Apple documentation, this project makes the core knowledge available locally and uses live MCP access only when deeper detail is required.
+
+Primary access: Local Markdown  
+Fallback access: MCP → Official Apple Docs
+
+This hybrid model reduces cost, increases speed, and improves reliability.
+
+---
+
+## Architecture
+
+```
+AI Agent
+↓
+Local Markdown Documentation (this repository)
+↓ (only if needed)
+Sosumi.ai MCP Server
+↓
+Official Apple Developer Documentation
+```
+
+Most development tasks are handled using local files. MCP is used only for edge cases or deep references.
+
+---
+
+## What This Repository Contains
+
+- 376+ Apple framework documentation files
+- Converted to clean Markdown
+- Optimized for AI parsing
+- Preserved official Apple links
+- Cross-framework references
+- Multi-platform coverage
+
+Supported platforms:
+
+- iOS
+- macOS
+- watchOS
+- tvOS
+- visionOS
+
+Coverage includes:
+
+- SwiftUI, UIKit, AppKit
+- AVFoundation, Metal, RealityKit
+- Core ML, Vision, Create ML
+- CloudKit, Core Data, SwiftData
+- CryptoKit, Security, Authentication
+- XCTest, Xcode Cloud, Developer Tools
+
+---
+
+## Why This Project Exists
+
+This project was created after observing that:
+
+- AI agents repeatedly download the same Apple documentation
+- MCP and scraping tools waste tokens on stable information
+- Most framework knowledge does not change frequently
+- Apple's documentation format is not AI-friendly
+
+Instead of treating documentation as a remote dependency, this project treats it as local infrastructure.
+
+This improves:
+
+- Development speed
+- Cost efficiency
+- Output accuracy
+- Long-term stability
+
+---
+
+## Quick Start
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ayaan-there/AppleDocumentationForAIAgents.git
+cd AppleDocumentationForAIAgents
+```
+
+---
+
+### 2. Optional: Configure MCP for Deep Lookup
+
+If your agent supports MCP, configure sosumi.ai:
+
+```json
+{
+  "mcpServers": {
+    "sosumi": {
+      "command": "npx",
+      "args": ["sosumi-mcp"],
+      "url": "https://sosumi.ai/documentation"
+    }
+  }
+}
+```
+
+This enables live access when local files are insufficient.
+
+---
+
+### 3. Configure Your AI Agent
+
+Tell your agent to prioritize this repository:
+
+```
+Use AppleDocumentationForAIAgents as your primary
+Apple documentation source.
+Use MCP only if additional detail is required.
+```
+
+---
+
+## Example Workflows
+
+### Example 1: SwiftUI Camera App
+
+Prompt:
+
+```
+Build a camera app using SwiftUI and AVFoundation.
+Use local documentation first.
+```
+
+Agent behavior:
+
+1. Reads SwiftUI.md
+2. Reads AVFoundation.md
+3. Designs architecture
+4. Generates code
+5. Uses MCP only for edge cases
+
+Result: faster generation, fewer mistakes, lower cost.
+
+---
+
+### Example 2: Machine Learning Integration
+
+Prompt:
+
+```
+Add real-time image classification using Core ML.
+```
+
+Agent reads:
+
+* CoreML.md
+* Vision.md
+* AVFoundation.md
+
+Builds correct inference pipeline without repeated scraping.
+
+---
+
+### Example 3: macOS Porting
+
+Prompt:
+
+```
+Port this iOS app to macOS with native UI.
+```
+
+Agent uses:
+
+* AppKit.md
+* Mac Catalyst.md
+* Foundation.md
+
+Maps platform differences correctly.
+
+---
+
+## Benefits
+
+### Token Efficiency
+
+* No repeated scraping
+* Smaller context windows
+* Reduced API calls
+* Lower operational cost
+
+### Accuracy
+
+* Based on official Apple sources
+* Preserves exact APIs
+* Reduces hallucination
+* Stable references
+
+### Speed
+
+* Instant local access
+* Faster planning
+* Faster code generation
+* No network latency
+
+### Reliability
+
+* Works offline
+* Not dependent on live services
+* Consistent context
+* Reproducible results
+
+---
+
+## Supported Environments
+
+This repository works well with:
+
+* Cursor
+* Claude MCP
+* GPT-based agents
+* AutoGPT / CrewAI
+* Local LLMs
+* Custom development agents
+
+Any system that can read Markdown can use this project.
+
+---
+
+## Repository Structure
+
+```
+/
+├── Apple-Documentation/
+│   ├── SwiftUI.md
+│   ├── AVFoundation.md
+│   ├── CoreML.md
+│   ├── UIKit.md
+│   └── ...
+└── README.md
+```
+
+Each framework file includes:
+
+* Overview
+* Core APIs
+* Usage patterns
+* Best practices
+* Official references
+
+---
+
+## How It Was Built
+
+1. Apple documentation links were collected
+2. Content was converted using sosumi.ai
+3. Files were normalized into Markdown
+4. References were preserved
+5. Structure was standardized
+6. Content was validated for AI readability
+
+The focus was on consistency, long-term usability, and agent compatibility.
+
+---
+
+## Updating and Maintenance
+
+Planned improvements:
+
+* Automated synchronization
+* Version tracking
+* Deprecation indicators
+* Release tagging
+* Change diffs
+
+Community contributions are encouraged.
+
+---
+
+## Contributing
+
+Contributions are welcome.
+
+You can help by:
+
+1. Improving formatting
+2. Adding new frameworks
+3. Fixing broken links
+4. Adding usage examples
+5. Creating benchmarks
+6. Updating deprecated APIs
+
+Open a pull request with a clear description.
+
+---
+
+## Legal Notice
+
+This repository contains documentation derived from Apple Developer Documentation.
+
+All original content belongs to Apple Inc.
+
+This project is provided for educational and development purposes.
+
+---
+
+## Long-Term Vision
+
+The goal is to build a shared, open, AI-native knowledge base for Apple development.
+
+No scraping.
+No wasted tokens.
+No unnecessary API calls.
+No hallucinations.
+
+Just reliable infrastructure for AI-assisted software development.
+
+---
+
+## Author
+
+Created by Ayaan.
+
+If this project is useful to you, consider starring the repository.
