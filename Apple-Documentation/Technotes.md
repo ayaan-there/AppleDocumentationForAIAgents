@@ -1,0 +1,90 @@
+# Technotes Documentation
+
+Source: https://sosumi.ai/documentation/technotes
+
+---
+title: Technotes
+source: https://developer.apple.com/documentation/technotes
+timestamp: 2026-02-13T19:03:03.428Z
+---
+
+## Latest
+
+- [TN3190: USB audio device design considerations](/documentation/technotes/tn3190-usb-audio-device-design-considerations)
+- [TN3194: Handling account deletions and revoking tokens for Sign in with Apple](/documentation/technotes/tn3194-handling-account-deletions-and-revoking-tokens-for-sign-in-with-apple)
+- [TN3193: Managing the on-device foundation model’s context window](/documentation/technotes/tn3193-managing-the-on-device-foundation-model-s-context-window)
+- [TN3115: Bluetooth State Restoration app relaunch rules](/documentation/technotes/tn3115-bluetooth-state-restoration-app-relaunch-rules)
+- [TN3192: Migrating your iPad app from the deprecated UIRequiresFullScreen key](/documentation/technotes/tn3192-migrating-your-app-from-the-deprecated-uirequiresfullscreen-key)
+- [TN3151: Choosing the right networking API](/documentation/technotes/tn3151-choosing-the-right-networking-api)
+- [TN3111: iOS Wi-Fi API overview](/documentation/technotes/tn3111-ios-wifi-api-overview)
+- [TN3191: IMAP extensions supported by Mail for iOS, iPadOS, and visionOS](/documentation/technotes/tn3191-imap-extensions-supported-by-mail)
+- [TN3134: Network Extension provider deployment](/documentation/technotes/tn3134-network-extension-provider-deployment)
+- [TN3179: Understanding local network privacy](/documentation/technotes/tn3179-understanding-local-network-privacy)
+- [TN3189: Managing Mail background traffic load](/documentation/technotes/tn3189-managing-mail-background-traffic-load)
+- [TN3187: Migrating to the UIKit scene-based life cycle](/documentation/technotes/tn3187-migrating-to-the-uikit-scene-based-life-cycle)
+- [TN3188: Troubleshooting In-App Purchases availability in the App Store](/documentation/technotes/tn3188-troubleshooting-in-app-purchases-availability-in-the-app-store)
+- [TN3186: Troubleshooting In-App Purchases availability in the sandbox](/documentation/technotes/tn3186-troubleshooting-in-app-purchases-availability-in-the-sandbox)
+- [TN3185: Troubleshooting In-App Purchases availability in Xcode](/documentation/technotes/tn3185-troubleshooting-in-app-purchases-availability-in-xcode)
+- [TN3182: Adding privacy tracking keys to your privacy manifest](/documentation/technotes/tn3182-adding-privacy-tracking-keys-to-your-privacy-manifest)
+- [TN3183: Adding required reason API entries to your privacy manifest](/documentation/technotes/tn3183-adding-required-reason-api-entries-to-your-privacy-manifest)
+- [TN3184: Adding data collection details to your privacy manifest](/documentation/technotes/tn3184-adding-data-collection-details-to-your-privacy-manifest)
+- [TN3181: Debugging an invalid privacy manifest](/documentation/technotes/tn3181-debugging-invalid-privacy-manifest)
+- [TN3180: Reverting to App Store Server Notifications V1](/documentation/technotes/tn3180-reverting-app-store-server-notifications-v1)
+- [TN3178: Checking for and resolving build UUID problems](/documentation/technotes/tn3178-checking-for-and-resolving-build-uuid-problems)
+- [TN3177: Understanding alternate audio track groups in movie files](/documentation/technotes/tn3177-understanding-alternate-audio-track-groups-in-movie-files)
+- [TN3176: Troubleshooting Apple Pay payment processing issues](/documentation/technotes/tn3176-troubleshooting-apple-pay-payment-processing-issues)
+- [TN3175: Diagnosing issues with displaying the Apple Pay button on your website](/documentation/technotes/tn3175-diagnosing-issues-with-displaying-the-apple-pay-button-on-your-website)
+- [TN3174: Diagnosing issues with the Apple Pay payment sheet on your website](/documentation/technotes/tn3174-diagnosing-issues-with-the-apple-pay-payment-sheet-on-your-website)
+- [TN3173: Troubleshooting issues with your Apple Pay merchant identifier configuration](/documentation/technotes/tn3173-troubleshooting-issues-with-your-apple-pay-merchant-id-configuration)
+- [TN3168: Making your App Clip available in the App Store](/documentation/technotes/tn3168-making-your-app-clip-available-app-store)
+- [TN3124: Debugging coordinate space issues](/documentation/technotes/tn3124-debugging-coordinate-transformations)
+- [TN3158: Resolving Xcode 15 device connection issues](/documentation/technotes/tn3158-resolving-xcode-15-device-connection-issues)
+- [TN3165: Packet Filter is not API](/documentation/technotes/tn3165-packet-filter-is-not-api)
+- [TN3164: Debugging the synchronization of NSPersistentCloudKitContainer](/documentation/technotes/tn3164-debugging-the-synchronization-of-nspersistentcloudkitcontainer)
+- [TN3163: Understanding the synchronization of NSPersistentCloudKitContainer](/documentation/technotes/tn3163-understanding-the-synchronization-of-nspersistentcloudkitcontainer)
+- [TN3161: Inside Code Signing: Certificates](/documentation/technotes/tn3161-inside-code-signing-certificates)
+- [TN3162: Understanding CloudKit throttles](/documentation/technotes/tn3162-understanding-cloudkit-throttles)
+- [TN3159: Migrating Sign in with Apple users for an app transfer](/documentation/technotes/tn3159-migrating-sign-in-with-apple-users-for-an-app-transfer)
+- [TN3156: Create rich previews for Messages](/documentation/technotes/tn3156-create-rich-previews-for-messages)
+- [TN3157: Updating your watchOS project for SwiftUI and WidgetKit](/documentation/technotes/tn3157-updating-your-watchos-project-for-swiftui-and-widgetkit)
+- [TN3155: Debugging universal links](/documentation/technotes/tn3155-debugging-universal-links)
+- [TN3138: Handling App Store receipt signing certificate changes](/documentation/technotes/tn3138-handling-app-store-receipt-signing-certificate-changes)
+- [TN3154: Adopting SwiftUI navigation split view](/documentation/technotes/tn3154-adopting-swiftui-navigation-split-view)
+- [TN3153: Adopting API changes for EventKit in iOS 17, macOS 14, and watchOS 10](/documentation/technotes/tn3153-adopting-api-changes-for-eventkit-in-ios-macos-and-watchos)
+- [TN3152: Migrating to the latest Calendar access levels](/documentation/technotes/tn3152-migrating-to-the-latest-calendar-access-levels)
+- [TN3149: Fetching Contacts change history events](/documentation/technotes/tn3149-fetching-change-history-events)
+- [TN3150: Getting ready for dataless files](/documentation/technotes/tn3150-getting-ready-for-data-less-files)
+- [TN3117: Resolving architecture build errors on Apple silicon](/documentation/technotes/tn3117-resolving-build-errors-for-apple-silicon)
+- [TN3147: Migrating to the latest notarization tool](/documentation/technotes/tn3147-migrating-to-the-latest-notarization-tool)
+- [TN3145: HDR video metadata](/documentation/technotes/tn3145-hdr-video-metadata)
+- [TN3133: Packaging a Metal renderer](/documentation/technotes/tn3133-packaging-a-renderer)
+- [TN3137: On Mac keychain APIs and implementations](/documentation/technotes/tn3137-on-mac-keychains)
+- [TN3136: AVAudioConverter - performing sample rate conversions](/documentation/technotes/tn3136-avaudioconverter-performing-sample-rate-conversions)
+- [TN3135: Low-level networking on watchOS](/documentation/technotes/tn3135-low-level-networking-on-watchos)
+- [TN3128: Starting SharePlay without an existing FaceTime call](/documentation/technotes/tn3128-starting-shareplay-without-an-existing-facetime-call)
+- [TN3132: Changes to EventKit and EventKitUI in iOS 16](/documentation/technotes/tn3132-changes-eventkit-and-eventkitui-in-ios16)
+- [TN3130: Changes to EventKit in macOS Ventura 13](/documentation/technotes/tn3130-changes-to-eventkit-in-macos13-ventura)
+- [TN3129: Resolving build errors from helper tools in Xcode Cloud and other build environments](/documentation/technotes/tn3129-resolving-build-errors-from-helper-tools-in-xcode-cloud)
+- [TN3125: Inside Code Signing: Provisioning Profiles](/documentation/technotes/tn3125-inside-code-signing-provisioning-profiles)
+- [TN3126: Inside Code Signing: Hashes](/documentation/technotes/tn3126-inside-code-signing-hashes)
+- [TN3127: Inside Code Signing: Requirements](/documentation/technotes/tn3127-inside-code-signing-requirements)
+- [TN3122: Receipt validation with the App Store fails with a non-zero error code](/documentation/technotes/tn3122-receipt-validation-with-the-app-store-fails-with-a-non-zero-error-code)
+- [TN3113: Testing and debugging XPC code with an anonymous listener](/documentation/technotes/tn3113-testing-xpc-code-with-an-anonymous-listener)
+- [TN3121: Selecting a pixel format for an AVCaptureVideoDataOutput](/documentation/technotes/tn3121-selecting-a-pixel-format-for-an-avcapturevideodataoutput)
+- [TN3123: Refactoring your storyboard](/documentation/technotes/tn3123-refactoring-your-storyboard)
+- [TN3120: Expected use cases for Network Extension packet tunnel providers](/documentation/technotes/tn3120-expected-use-cases-for-network-extension-packet-tunnel-providers)
+- [TN3106: Customizing the appearance of UINavigationBar](/documentation/technotes/tn3106-customizing-uinavigationbar-appearance)
+- [TN3105: Customizing the UIKit status bar style](/documentation/technotes/tn3105-customizing-uistatusbar-syle)
+- [TN3118: Debugging your app’s launch screen](/documentation/technotes/tn3118-debugging-your-apps-launch-screen)
+- [TN3107: Resolving Sign in with Apple response errors](/documentation/technotes/tn3107-resolving-sign-in-with-apple-response-errors)
+- [TN3110: Resolving generic Xcode archive issue](/documentation/technotes/tn3110-resolving-generic-xcode-archive-issue)
+- [TN3109: Resolving common archiving issues](/documentation/technotes/tn3109-resolving-common-archiving-issues)
+- [TN3108: Viewing the interface of your Swift code](/documentation/technotes/tn3108-viewing-the-interface-of-your-swift-code)
+- [TN3104: Recording video in Apple ProRes](/documentation/technotes/tn3104-recording-video-in-apple-prores)
+- [TN3103: Apple Pay on the Web troubleshooting guide](/documentation/technotes/tn3103-apple-pay-on-the-web-troubleshooting-guide)
+- [TN3102: HTTP/3 in your app](/documentation/technotes/tn3102-http3-in-your-app)
+
+---
+
+*Extracted by [sosumi.ai](https://sosumi.ai) - Making Apple docs AI-readable.*
+*This is unofficial content. All documentation belongs to Apple Inc.*

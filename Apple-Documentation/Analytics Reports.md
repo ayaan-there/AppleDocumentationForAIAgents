@@ -1,0 +1,168 @@
+# Analytics Reports Documentation
+
+Source: https://sosumi.ai/documentation/analytics-reports
+
+---
+title: Analytics Reports
+source: https://developer.apple.com/documentation/analytics-reports
+timestamp: 2026-02-13T19:33:18.641Z
+---
+
+## Essentials
+
+- [Data Completeness and Corrections](/documentation/analytics-reports/data-completeness-corrections)
+- [Protecting user privacy in report data](/documentation/analytics-reports/privacy)
+
+## App Store Engagement
+
+- [App Store Discovery and Engagement](/documentation/analytics-reports/app-store-discovery-and-engagement)
+- [App Store Web Preview](/documentation/analytics-reports/app-store-web-preview)
+
+## App Store Commerce
+
+- [App Store Downloads](/documentation/analytics-reports/app-download)
+- [App Store Pre-orders](/documentation/analytics-reports/app-store-pre-order)
+- [App Store Purchases](/documentation/analytics-reports/app-store-purchase)
+
+## App Usage
+
+- [App Clip Usage](/documentation/analytics-reports/app-clip-usage)
+- [App Crashes](/documentation/analytics-reports/app-crashes)
+- [App Store Installations and Deletions](/documentation/analytics-reports/app-installs)
+- [App Store Opt-in](/documentation/analytics-reports/app-store-opt-in)
+- [App Sessions](/documentation/analytics-reports/app-sessions)
+- [CarPlay App Usage](/documentation/analytics-reports/carplay-app-usage)
+- [Platform App Installs](/documentation/analytics-reports/platform-app-installs)
+- [Shortcuts Actions Usage](/documentation/analytics-reports/shortcuts-actions-usage)
+- [Shortcut App Usage](/documentation/analytics-reports/shortcut-app-usage)
+
+## Framework Usage
+
+- [AccessorySetupKit Accessory Picker Sessions](/documentation/analytics-reports/accessorysetupkit-accessory-picker-sessions)
+- [AccessorySetupKit Usage](/documentation/analytics-reports/accessorysetupkit-usage)
+- [AirPlay Discovery Sessions](/documentation/analytics-reports/airplay-discovery-sessions)
+- [Animoji Stickers Sent](/documentation/analytics-reports/animoji-stickers-sent)
+- [App Added to Focus](/documentation/analytics-reports/app-added-to-focus)
+- [App Disk Space Usage](/documentation/analytics-reports/app-disk-space-usage)
+- [App Runtime Usage](/documentation/analytics-reports/app-runtime-usage)
+- [App Sessions Context](/documentation/analytics-reports/app-sessions-context)
+- [Application Preferred Language Settings](/documentation/analytics-reports/application-preferred-language-settings)
+- [ARKit ARSession Duration](/documentation/analytics-reports/arkit-arsession-duration)
+- [ARKit ARSession Failures](/documentation/analytics-reports/arkit-arsession-failures)
+- [ARKit Capture Frame Rate Throttling](/documentation/analytics-reports/arkit-capture-frame-rate-throttling)
+- [ARKit Collaborative Session Features](/documentation/analytics-reports/arkit-collaborative-session-features)
+- [ARKit Face Tracking](/documentation/analytics-reports/arkit-face-tracking)
+- [ARKit Video Formats](/documentation/analytics-reports/arkit-video-formats)
+- [ARKit World Tracking](/documentation/analytics-reports/arkit-world-tracking)
+- [ARKit World Tracking Image Detection](/documentation/analytics-reports/arkit-world-tracking-image-detection)
+- [Audio Input Muting](/documentation/analytics-reports/audio-input-muting)
+- [Audio Input Route and Duration and Call Mode](/documentation/analytics-reports/audio-input-route-and-duration-and-call-mode)
+- [Audio Session Audio Unit Usage](/documentation/analytics-reports/audio-session-audio-unit-usage)
+- [Audio Volume Levels and Duration](/documentation/analytics-reports/audio-volume-levels-and-duration)
+- [Automatic Speech Recognition Usage](/documentation/analytics-reports/automatic-speech-recognition-usage)
+- [Bluetooth LE Advertising](/documentation/analytics-reports/bluetooth-le-advertising)
+- [Bluetooth LE Connection Results](/documentation/analytics-reports/bluetooth-le-connection-results)
+- [Bluetooth LE Connections Per App](/documentation/analytics-reports/bluetooth-le-connections-per-app)
+- [Bluetooth LE Disconnection Results](/documentation/analytics-reports/bluetooth-le-disconnection-results)
+- [Bluetooth LE Scans](/documentation/analytics-reports/bluetooth-le-scans)
+- [Bluetooth LE Sessions](/documentation/analytics-reports/bluetooth-le-sessions)
+- [Browser Choice Screen Engagement (iOS versions before 18.2)](/documentation/analytics-reports/browser-choice-screen-engagement)
+- [Call Services and Call Performance](/documentation/analytics-reports/call-services-and-call-performance)
+- [CarPlay Navigation](/documentation/analytics-reports/carplay-navigation)
+- [Collaboration Message Usage](/documentation/analytics-reports/collaboration-message-usage)
+- [Core Location Authorization Results](/documentation/analytics-reports/core-location-authorization-results)
+- [Core Location Geofencing](/documentation/analytics-reports/core-location-geofencing)
+- [CRABS-Based Video Playback Usage](/documentation/analytics-reports/crabs-based-video-playback-usage)
+- [Custom Language Model Builds Started](/documentation/analytics-reports/custom-language-model-builds-started)
+- [Customized Transcription Requests](/documentation/analytics-reports/customized-transcription-requests)
+- [DockKit App Usage](/documentation/analytics-reports/dockkit-app-usage)
+- [Dynamic Island Layout Changes](/documentation/analytics-reports/dynamic-island-layout-changes)
+- [File-Based Video Playback Usage](/documentation/analytics-reports/file-based-video-playback-usage)
+- [Flashlight Usage](/documentation/analytics-reports/flashlight-usage)
+- [Game Controller Haptics Engine Creation](/documentation/analytics-reports/game-controller-haptics-engine-creation)
+- [Game Controller Sessions](/documentation/analytics-reports/game-controller-sessions)
+- [Haptics Engine Usage](/documentation/analytics-reports/haptics-engine-usage)
+- [Home Screen Widget Installs](/documentation/analytics-reports/home-screen-widget-installs)
+- [Home Screen Widget Rotations](/documentation/analytics-reports/home-screen-widget-rotations)
+- [Home Screen Widget Usage](/documentation/analytics-reports/home-screen-widget-usage)
+- [Home Screen Widgets](/documentation/analytics-reports/home-screen-widgets)
+- [HTTP Live Streaming Playback Count](/documentation/analytics-reports/http-live-streaming-playback-count)
+- [HTTP Live Streaming Video Playback Usage](/documentation/analytics-reports/http-live-streaming-video-playback-usage)
+- [Keyboard Dictation Usage](/documentation/analytics-reports/keyboard-dictation-usage)
+- [Live Activity Use](/documentation/analytics-reports/live-activity-use)
+- [Load CoreML Models Metrics](/documentation/analytics-reports/load-coreml-models-metrics)
+- [Local Network Privacy](/documentation/analytics-reports/local-network-privacy)
+- [Location Sessions](/documentation/analytics-reports/location-sessions)
+- [Lock Screen Widget Configuration](/documentation/analytics-reports/lock-screen-widget-configuration)
+- [Metal Command Queues](/documentation/analytics-reports/metal-command-queues)
+- [Mode Activity Notifications](/documentation/analytics-reports/mode-activity-notifications)
+- [Multiple Game Controllers Usage](/documentation/analytics-reports/multiple-game-controllers-usage)
+- [Notification Summary Engagement](/documentation/analytics-reports/notification-summary-engagement)
+- [Photogrammetry ObjectCaptureSession API Usage](/documentation/analytics-reports/photogrammetry-objectcapturesession-api-usage)
+- [PhotogrammetrySession API Usage](/documentation/analytics-reports/photogrammetrysession-api-usage)
+- [PhotoKit Imports](/documentation/analytics-reports/photokit-imports)
+- [Photos Library Access](/documentation/analytics-reports/photos-library-access)
+- [Photos Picker](/documentation/analytics-reports/photos-picker)
+- [Photos Sharing](/documentation/analytics-reports/photos-sharing)
+- [Reminders Usage](/documentation/analytics-reports/reminders-usage)
+- [RoomPlan Usage](/documentation/analytics-reports/roomplan-usage)
+- [Safari Extensions Enablement](/documentation/analytics-reports/safari-extensions-enablement)
+- [Safari Extensions Usage](/documentation/analytics-reports/safari-extensions-usage)
+- [Shared With You Content Engagement](/documentation/analytics-reports/shared-with-you-content-engagement)
+- [SharePlay Usage by Activity Type](/documentation/analytics-reports/shareplay-usage-by-activity-type)
+- [ShazamKit Usage](/documentation/analytics-reports/shazamkit-usage)
+- [Spatial Audio Usage](/documentation/analytics-reports/spatial-audio-usage)
+- [Speech Framework Transcription Request Audio Duration](/documentation/analytics-reports/speech-framework-transcription-request-audio-duration)
+- [Speech Framework Transcription Requests](/documentation/analytics-reports/speech-framework-transcription-requests)
+- [Text-Input Actions](/documentation/analytics-reports/text-input-actions)
+- [Translation Request Usage](/documentation/analytics-reports/translation-request-usage)
+- [Verify With Wallet Document Request Availability](/documentation/analytics-reports/verify-with-wallet-document-request-availability)
+- [Verify with Wallet Document Requests](/documentation/analytics-reports/verify-with-wallet-document-requests)
+- [Video Duration Information](/documentation/analytics-reports/video-duration-information)
+- [Video PiP Duration](/documentation/analytics-reports/video-pip-duration)
+- [VisionKit Data Detectors](/documentation/analytics-reports/visionkit-data-detectors)
+- [VisionKit Image Analysis](/documentation/analytics-reports/visionkit-image-analysis)
+- [VisionKit Live Text Usage](/documentation/analytics-reports/visionkit-live-text-usage)
+- [VisionKit Sessions](/documentation/analytics-reports/visionkit-sessions)
+- [Browser Choice Screen Selection](/documentation/analytics-reports/browser-choice-screen-selection)
+- [Default Browser Usage Rate](/documentation/analytics-reports/default-browser-usage-rate)
+- [iBeacon Add Region Usage](/documentation/analytics-reports/ibeacon-add-region-usage)
+- [App Extended Launch Usage](/documentation/analytics-reports/app-extended-launch-usage)
+- [File-System Events API Usage](/documentation/analytics-reports/file-system-events-api-usage)
+- [iBeacon Ranging Usage](/documentation/analytics-reports/ibeacon-ranging-usage)
+- [iBeacon Stop Monitoring for Region Usage](/documentation/analytics-reports/ibeacon-stop-monitoring-for-region-usage)
+- [Face-Driven Auto Exposure and Auto Focus Usage](/documentation/analytics-reports/face-driven-auto-exposure-and-auto-focus-usage)
+- [Photo Capture Usage](/documentation/analytics-reports/photo-capture-usage)
+- [ProRes Video Usage](/documentation/analytics-reports/prores-video-usage)
+- [Nearby Interaction Sessions](/documentation/analytics-reports/nearby-interaction-sessions)
+- [App HangTracer Usage](/documentation/analytics-reports/app-hangtracer-usage)
+- [Video Streaming Duration](/documentation/analytics-reports/video-streaming-duration)
+- [Wi-Fi Known Network Modifications](/documentation/analytics-reports/wi-fi-known-network-modifications)
+
+## Performance
+
+- [AirPlay Errors](/documentation/analytics-reports/airplay-errors)
+- [AirPlay Performance](/documentation/analytics-reports/airplay-performance)
+- [App Crashes Expanded](/documentation/analytics-reports/app-crashes-expanded)
+- [App Installs Performance](/documentation/analytics-reports/app-installs-performance)
+- [App Storage Reads and Writes](/documentation/analytics-reports/app-storage-reads-and-writes)
+- [Audio Overloads](/documentation/analytics-reports/audio-overloads)
+- [Bluetooth LE Session Duration](/documentation/analytics-reports/bluetooth-le-session-duration)
+- [Bluetooth System Wakes](/documentation/analytics-reports/bluetooth-system-wakes)
+- [CAMetalLayer Performance](/documentation/analytics-reports/cametallayer-performance)
+- [Custom Language Model Builds Failed](/documentation/analytics-reports/custom-language-model-builds-failed)
+- [Display Power Information](/documentation/analytics-reports/display-power-information)
+- [HTTP Live Streaming Playback Errors](/documentation/analytics-reports/http-live-streaming-playback-errors)
+- [Launch Image Over Memory Limit](/documentation/analytics-reports/launch-image-over-memory-limit)
+- [Networking Connection Activity](/documentation/analytics-reports/networking-connection-activity)
+- [Spotlight Query Performance](/documentation/analytics-reports/spotlight-query-performance)
+- [Streaming Downloads Performance](/documentation/analytics-reports/streaming-downloads-performance)
+- [App Neural Footprint](/documentation/analytics-reports/app-neural-footprint)
+- [Embedding Generation](/documentation/analytics-reports/embedding-generation)
+- [Cellular Plan Provisioning](/documentation/analytics-reports/cellular-plan-provisioning)
+- [Streaming Playback Performance](/documentation/analytics-reports/streaming-playback-performance)
+
+---
+
+*Extracted by [sosumi.ai](https://sosumi.ai) - Making Apple docs AI-readable.*
+*This is unofficial content. All documentation belongs to Apple Inc.*
